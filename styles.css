@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header {
+    font-size: 1.5rem;
+    min-width: 100%;
+    text-align: center;
+    background-color: indigo;
+    color: white;
+}
+.appear {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: green;
+    font-size: 1.5rem;
+}
+.content {
+    max-width: 60%;
+}
+.box {
+    background-color: slateblue;
+    padding: 10rem;
+    font-size: 1.5rem;
+    border: 2px dashed lavender;
+}
+.sticky {
+    max-width: 40%;
+    border: 1px solid grey;
+    padding: 5rem;
+    align-self: flex-start;
+
+    position: sticky;
+    top: 7.5rem;
+}
+.footer {
+    min-width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 5rem;
+    background-color: mediumorchid;
+    color: white;
+}
